@@ -1,0 +1,45 @@
+/*
+Theme Name: template-wp
+Theme URI: http://template-wp.localhost/
+Author: LaurenceBridoux
+Author URI: http://template-wp.localhost/
+Description: Description du thème en quelques mots
+Version: 1.0
+*/
+
+body{
+
+}
+#photoHeader{
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 9.11%;
+    bottom: -11.53%;
+    
+    background: url(../img/istockphoto-1207798556-170667a\ 1.png);
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.card{
+margin: 50px;
+}
+
+footer{
+    height: 500px;
+}
+
+h4{
+    justify-content: center;
+}
+
+.infos{
+    display: flex;
+    flex-direction: row; 
+}
+
