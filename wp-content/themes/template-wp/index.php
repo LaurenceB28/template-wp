@@ -11,41 +11,73 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
-            <div class="container-fluid">
-                <a class="navbar-brand" id="logo" href="#"><img src="wp-content/themes/template-wp/assets/img/image 45.png" alt=""></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catégorie1</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catégorie2</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link" href="#">Catégorie3</a>
-                        </li>
-                    </ul>
-                </div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" id="logo" href="#"><img src="wp-content/themes/template-wp/assets/img/image 45.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catégorie1</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catégorie2</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Catégorie3</a>
+                    </li>
+                </ul>
             </div>
-        </nav>
+        </div>
+    </nav>
+    <!-- <header>
         <img id="photoHeader" src="wp-content/themes/template-wp/assets/img/image 19.png" alt="">
-    </header>
-
-    <footer>
-
-        <img src="wp-content/themes/template-wp/assets/img/Contrast 2.png" alt="">
-
-
-        <div class="text">
-            <h4>DECOUVREZ</h4>
-            <p>Articles les plus populaires</p>
+    </header> -->
+    <main class="containerPhotoText">
+        <div class="div1">
+            <img src="wp-content/themes/template-wp/assets/img/tom-grimbert-661519-unsplash.png" class="card-img-top" alt="...">
+        </div>
+        <div class="div2">
+            <h3>DECOUVREZ</h3>
+            <h2>NOS PLUS BELLES DESTINATIONS</h2>
+            <p class="descriptions">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
         </div>
 
+        <div class="div3">
+            <h3>PARTEZ</h3>
+            <h2>NOS PLUS BELLES DESTINATIONS</h2>
+            <p class="descriptions">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+        <div class="div4">
+            <img src="wp-content/themes/template-wp/assets/img/image 2.png" class="card-img-top" alt="...">
+        </div>
+
+        <div class="div5">
+            <img src="wp-content/themes/template-wp/assets/img/bateaux.png" class="card-img-top" alt="...">
+        </div>
+        <div class="div6">
+            <h3>VOYAGEZ</h3>
+            <h2>NOS PLUS BELLES DESTINATIONS</h2>
+            <p class="descriptions">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+    </main>
+    <img src="wp-content/themes/template-wp/assets/img/Contrast 2.png" alt="">
+    <footer>
+        <div class="text">
+            <h4>DECOUVREZ</h4>
+            <h6>Articles les plus populaires</h6>
+        </div>
         <div class="container">
             <div class="card" style="width: 18rem;">
                 <img src="wp-content/themes/template-wp/assets/img/tom-grimbert-661519-unsplash.png" class="card-img-top" alt="...">
@@ -72,8 +104,6 @@
                 </div>
             </div>
         </div>
-
-
         <div class="infos">
             <div>
                 <h5>Acces rapide</h5>
@@ -92,7 +122,6 @@
                 <p>Inscrivez-vous à notre newsletter</p>
             </div>
         </div>
-
     </footer>
 
 
