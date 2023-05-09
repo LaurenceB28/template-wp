@@ -16,7 +16,6 @@
     <header class="site__header">
         <a class="navbar-brand" id="logo" href="<?php echo home_url('/'); ?>http://template-wp.localhost/">
             <img src="<?php echo get_template_directory_uri(); ?>/img/image 45.png" alt="logo"></a>
-        <img src="wp-content/themes/template-wp/assets/img/istockphoto-1207798556-170667a 1.png" alt="">
         <?php wp_nav_menu(array('theme_location' => 'main')); ?>
         <?php
         wp_nav_menu(
@@ -27,4 +26,5 @@
             )
         );
         ?>
+        <img src="wp-content/themes/template-wp/assets/img/istockphoto-1207798556-170667a 1.png" alt="">
     </header>
