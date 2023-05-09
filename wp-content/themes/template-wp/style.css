@@ -13,14 +13,7 @@ body {
   color: #ffffff;
 }
 
-#photoHeader {
-  position: absolute;
-  left: 0%;
-  right: 0%;
-  top: 9.11%;
-  bottom: -11.53%;
-  background: url(../img/istockphoto-1207798556-170667a\ 1.png);
-}
+
 
 .container {
   display: flex;
